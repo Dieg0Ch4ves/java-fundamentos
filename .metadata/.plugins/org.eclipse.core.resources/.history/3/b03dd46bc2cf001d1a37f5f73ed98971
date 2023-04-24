@@ -1,0 +1,7 @@
+package Threads;
+
+public class TesteThreads {
+	
+	static int i = 0;
+	
+}

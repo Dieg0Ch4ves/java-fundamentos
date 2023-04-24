@@ -1,0 +1,10 @@
+package GenericsCourse;
+
+public class AeronavesComGenerics<T> {
+	
+	private List<T> listaAeronaves = new ArrayList<>();
+	
+	public void addVoo(T nrVoo) {
+		
+	}
+}

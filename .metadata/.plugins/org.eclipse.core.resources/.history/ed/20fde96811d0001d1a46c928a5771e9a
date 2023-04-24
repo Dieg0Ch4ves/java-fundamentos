@@ -1,0 +1,15 @@
+package UtilizandoPersistenciaBD;
+
+import java.util.List;
+
+public class Menu {
+
+	public static void main(String[] args) throws Exception {
+		PessoaDao pd = new PessoaDao();
+		Pessoa pes1 = pd.consultarPessoaIndividual(1);
+		System.out.println("Código...: " + pes1.getIdPessoa());
+		System.out.println("Nome...: " + pes1.getNomePessoa());
+		System.out.println("email...: " + pes1.getEmail());
+		
+	}
+}

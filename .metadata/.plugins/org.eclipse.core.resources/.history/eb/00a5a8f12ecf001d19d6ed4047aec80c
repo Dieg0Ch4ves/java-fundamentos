@@ -1,0 +1,19 @@
+package GenericsCourse;
+
+import java.util.List;
+
+public class AeronavesComGenerics<T> {
+	
+	private ArrayList<T> listaAeronaves = new ArrayList<>();
+	
+	public void addVoo(T nrVoo) {
+		listaAeronaves.add(nrVoo);
+	}
+	
+	public T primeiroVoo() {
+		if(listaAeronaves.isEmpty()) {
+			System.out.println("Lista está vazia !");
+		}
+		return listaAeronaves.get(0);
+	}
+}

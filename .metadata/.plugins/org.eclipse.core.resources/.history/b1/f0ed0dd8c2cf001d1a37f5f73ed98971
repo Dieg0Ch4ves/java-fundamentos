@@ -1,0 +1,15 @@
+package Threads;
+
+public class TesteThreads {
+	
+	static int i = 0;
+	public static void main(String[] args) {
+		new Thread(1).start();
+		new Thread(2).start();
+	}
+	
+	private static void contador(String name) {
+		i++;
+		System.out.println("O valor do contador atual é: " + i + ", thread" + name);
+	}
+}

@@ -1,0 +1,7 @@
+package Pessoas;
+
+public class Fisica extends Pessoa {
+	
+	public String cpf;
+	public String identidade;
+}

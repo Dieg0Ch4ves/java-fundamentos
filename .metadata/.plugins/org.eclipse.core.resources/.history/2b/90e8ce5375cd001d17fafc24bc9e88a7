@@ -1,0 +1,21 @@
+package Construtores;
+
+import Construtores.Aluno.STATUS;
+
+public class Construtor {
+
+	public static void main(String[] args) {
+		
+		Aluno alu = new Aluno(8 , 8 , 8);
+		
+		
+		double mediaAlunoFinal = alu.calcularMedia();
+		
+		if(mediaAlunoFinal > 6) { 
+			alu.situacaoAluno = STATUS.APROVADO; 
+		} else {
+			alu.situacaoAluno = STATUS.REPROVADO;
+		}
+	}
+	
+}

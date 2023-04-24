@@ -1,0 +1,6 @@
+package GenericsCourse;
+
+public class AeronavesComGenerics {
+	
+	private List<T> listaAeronaves = new ArrayList<>();
+}

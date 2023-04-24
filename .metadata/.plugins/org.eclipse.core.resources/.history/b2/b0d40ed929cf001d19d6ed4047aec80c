@@ -1,0 +1,8 @@
+package GenericsCourse;
+
+public class Aeronaves {
+
+	public void ArrayList<Integer> aeronavesArray = new ArrayList<>();
+	
+	
+}

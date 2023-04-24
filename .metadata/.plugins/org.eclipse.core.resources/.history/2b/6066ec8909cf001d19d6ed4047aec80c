@@ -1,0 +1,42 @@
+package ArrayListPratica;
+
+import java.util.ArrayList;
+
+import javax.swing.JOptionPane;
+
+public class ArrayListCarros {
+	
+	public static void main(String[] args) {
+		
+		//Criando um ArrayList de Carros
+		ArrayList<String> carros = new ArrayList<>();
+		
+		//Adicionando Carros Ao ArrayList
+		carros.add("FLUENCE");
+		carros.add("KOMBI");
+		carros.add("JAGUAR");
+		carros.add("BMW");
+		carros.add("MERCEDES");
+		carros.add("FUSCA");
+		carros.add("VECTRA");
+		
+		//Mostrar o Array
+		System.out.println(carros);
+		
+		//Substituindo MERCEDES por MITSUBISHI
+		carros.set(4, "MITSUBISHI");
+		
+		//Array depois do SET
+		System.out.println(carros);
+		
+		//Remover o VECTRA
+		carros.remove("VECTRA");
+		// OU carros.remove(6);
+		
+		//Array depois do REMOVE
+		System.out.println(carros);
+		
+		//Adicionando carro novo conforme o usuario digitar(JOPtionPane)
+		carros.add(JOptionPane.showInputDialog("Informe a marca de um carro"));
+	}
+}

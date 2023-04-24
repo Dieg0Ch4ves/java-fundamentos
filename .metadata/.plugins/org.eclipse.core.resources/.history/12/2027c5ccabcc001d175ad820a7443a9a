@@ -1,0 +1,11 @@
+package controle;
+
+public class For2 {
+
+	public static void main(String[] args) {
+		
+		for (let i = 1; i =< 10 ; i++) {
+			
+		}
+	}
+}

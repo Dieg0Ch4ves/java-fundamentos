@@ -1,0 +1,10 @@
+package DatasTratamento;
+
+public class ClasseCalender {
+
+	public static void main(String[] args) {
+		
+		System.out.println("==> Recuperação da data com a Classe Calendar");
+		Calendar cal = new Calendar();
+	}
+}

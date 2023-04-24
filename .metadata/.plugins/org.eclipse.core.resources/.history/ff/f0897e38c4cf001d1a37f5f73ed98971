@@ -1,0 +1,9 @@
+package ComandoForEach;
+
+public class ComandoForEach {
+
+	public static void main(String[] args) {
+		
+		//Lendo sem o Foreach
+	}
+}

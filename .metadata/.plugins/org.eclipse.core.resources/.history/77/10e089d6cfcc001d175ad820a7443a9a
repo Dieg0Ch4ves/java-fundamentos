@@ -1,0 +1,6 @@
+package Polimorfismo;
+
+abstract class mamifero {
+	
+	
+}

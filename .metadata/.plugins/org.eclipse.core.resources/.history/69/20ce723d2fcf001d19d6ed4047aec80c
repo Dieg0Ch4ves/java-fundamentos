@@ -1,0 +1,14 @@
+package GenericsCourse;
+
+import java.util.Scanner;
+
+public class PrincipalComGenerics {
+	
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		AeronavesComGenerics<T> air = new Aeronaves();
+		
+		System.out.print("Informe quantas Aeronaves estão no patio: ");
+		int nrAeronaves = entrada.nextInt();
+	}
+}

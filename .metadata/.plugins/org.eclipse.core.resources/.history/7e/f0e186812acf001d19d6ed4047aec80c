@@ -1,0 +1,20 @@
+package GenericsCourse;
+
+import java.util.ArrayList;
+
+public class Aeronaves {
+
+	public ArrayList<Integer> listaAeronaves = new ArrayList<>();
+	
+	public void addVoo(Integer nrVoo) {
+		listaAeronaves.add(nrVoo);
+	}
+	
+	public Integer primeiroVoo() {
+		if(listaAeronaves.isEmpty()) {
+			System.out.println("A lista está vazia !");
+		} else {
+			System.out.println("O primeiro voo que saira, será o ");
+		}
+	}
+}

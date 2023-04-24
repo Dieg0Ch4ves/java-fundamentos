@@ -1,0 +1,22 @@
+package DatasTratamento;
+
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+import java.text.DateFormat;
+
+public class ConversaoDatas {
+
+	public static void main(String[] args) throw ParseException {
+		
+		//Data Formatada
+		Calendar c = Calendar.getInstance();
+		Date data = c.getTime();
+		
+		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+		System.out.println("Data Formatada: " + sdf.format(data));
+		
+		//Data Convertida
+		System.out.println("Data convertida: " + sdf.parse("02/08/1970"));
+	}
+}

@@ -1,0 +1,16 @@
+package Pessoas;
+
+public class Pessoas {
+
+	public static void main(String[] args) {
+		
+		Pessoa pes = new Pessoa();
+		
+		pes.nome = "João";
+		pes.cpf	= "1111111";
+		pes.identidade = "1500445";
+		pes.situacaoPessoa = "A";
+		
+		
+	}
+}

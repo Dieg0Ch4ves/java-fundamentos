@@ -1,0 +1,8 @@
+package Polimorfismo;
+
+public abstract class Elefante extends Mamifero{
+	
+	public double contaDiariaLeite() {
+		return 30.0;
+	}
+}

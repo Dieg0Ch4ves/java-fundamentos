@@ -1,0 +1,13 @@
+package UtilizandoPersistenciaBD;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+
+public class Dao {
+
+	Connection con;
+	PreparedStatement stmt;
+	ResultSet rs;
+	CallableStatement call;
+	
+}

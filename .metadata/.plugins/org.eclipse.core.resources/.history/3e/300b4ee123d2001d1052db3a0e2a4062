@@ -1,0 +1,17 @@
+package Interfaces;
+
+public class Gado implements Animal{
+
+	@Override
+	public void animalSom() {
+		System.out.println("Muuuuuuu");
+	}
+	
+	@Override
+	public void animalAbrigo() {
+		System.out.println("Estrebaria");
+	}
+	
+	arrayUm int[] = {1,2,34,5,67,};
+	int[] arrayDois = {23,56,78,9877,69,};
+}

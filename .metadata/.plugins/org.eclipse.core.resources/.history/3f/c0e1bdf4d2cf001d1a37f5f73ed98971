@@ -1,0 +1,15 @@
+package DatasTratamento;
+
+import java.util.Calendar;
+import java.util.Date;
+
+public class ConversaoDatas {
+
+	public static void main(String[] args) {
+		
+		Calendar c = Calendar.getInstance();
+		Date data = c.getTime();
+		
+		SimpleFormat sdf = new SimpleFormat("dd/MM/yyyy");
+	}
+}

@@ -1,0 +1,7 @@
+package Pessoas;
+
+public class Fisica {
+	
+	public String nome, cpf, cnpj, identidade, inscEstadual ;
+	public String situacaoPessoa;
+}

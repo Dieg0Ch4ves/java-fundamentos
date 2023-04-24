@@ -1,0 +1,12 @@
+package fundamentos;
+
+public class Inferencia {
+	public static void main(String[] args) {
+		double teste = 12;
+		teste = 13 ;
+		System.out.println(teste);
+		teste = "13";
+		System.out.println(teste);
+		
+	}
+}

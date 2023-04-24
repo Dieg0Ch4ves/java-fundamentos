@@ -1,0 +1,16 @@
+package ArrayELinkedListPratica;
+
+public class LinkedListCarros {
+	
+	public static void main(String[] args) {
+		
+		/*
+		addFirst()
+		addLast()
+		removeFirst()
+		removeLast()
+		getFirst()
+		getLast() 
+		  */
+	}
+}

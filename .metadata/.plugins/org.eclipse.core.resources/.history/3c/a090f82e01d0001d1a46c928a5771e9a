@@ -1,0 +1,25 @@
+package UtilizandoPersistenciaBD;
+
+public class Pessoa {
+
+	private int idPessoa;
+	private String nomePessoa;
+	private String email;
+	
+	
+	public Pessoa() {
+	}
+	
+	public Pessoa(String nomePessoa, String email) {
+		super();
+		this.nomePessoa = nomePessoa;
+		this.email = email;
+	}
+	
+	public Pessoa(int idPessoa, String nomePessoa, String email) {
+		super();
+		this.idPessoa = idPessoa;
+		this.nomePessoa = nomePessoa;
+		this.email = email;
+	}
+}

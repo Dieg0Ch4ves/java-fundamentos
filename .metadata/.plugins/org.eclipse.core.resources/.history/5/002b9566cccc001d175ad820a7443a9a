@@ -1,0 +1,6 @@
+package Pessoas;
+
+public class Pessoas {
+
+	Pessoa pes = new Pessoa();
+}

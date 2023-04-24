@@ -1,0 +1,20 @@
+package Pessoas;
+
+public class Pessoas {
+
+	public static void main(String[] args) {
+		
+		Fisica fis = new Fisica();
+		
+		fis.nome = "João";
+		fis.cpf	= "1111111";
+		fis.identidade = "1500445";
+		fis.situacaoPessoa = "A";
+		
+		pes.cnpj = "182371092";
+		pes.nome = "CASAS DA SILVA";
+		pes.inscEstadual = "3452352";
+		pes.situacaoPessoa = "I";
+		
+	}
+}

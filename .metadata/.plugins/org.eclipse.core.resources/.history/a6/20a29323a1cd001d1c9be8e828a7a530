@@ -1,0 +1,13 @@
+package TrabalhandoComArrays;
+
+public class ArraysMultidimensionais {
+
+	public static void main(String[] args) {
+		
+		String [] alunos = {"João", "Maria", "Jose"} ; 
+
+		for (String listaAlunos : alunos) {
+			System.out.println(listaAlunos);
+		}
+	}
+}

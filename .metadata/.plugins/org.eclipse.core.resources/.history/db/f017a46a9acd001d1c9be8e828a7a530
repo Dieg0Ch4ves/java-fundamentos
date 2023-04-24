@@ -1,0 +1,11 @@
+package TrabalhandoComArrays;
+
+public class TrabalhandoArray {
+	
+	public static void main(String[] args) {
+		//Declarando um array
+		String [] paises = new String[4];
+		
+		//Declarando valores ao array
+	}
+}

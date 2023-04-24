@@ -1,0 +1,8 @@
+package Annotations;
+
+public class AnnotationInformacao {
+
+	void visualizar() {
+		System.out.println("Metodo de visuialização");
+	}
+}

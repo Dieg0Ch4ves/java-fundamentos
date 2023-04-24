@@ -1,0 +1,14 @@
+package TrabalhandoComArrays;
+
+public class ArraysMultidimensionais {
+
+	public static void main(String[] args) {
+		
+		String [] alunos = {"João", "Maria", "Jose"} ; 
+
+		float [][] notas = new float[3][4] ;
+		
+		float somaNotas, mediaAluno;
+		String statusAluno ;
+	}
+}

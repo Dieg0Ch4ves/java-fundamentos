@@ -1,0 +1,14 @@
+package DatasTratamento;
+
+import java.util.Calendar;
+
+public class ConversaoDatas {
+
+	public static void main(String[] args) {
+		
+		Calendar c = Calendar.getInstance();
+		Date data = c.getTime();
+		
+		
+	}
+}

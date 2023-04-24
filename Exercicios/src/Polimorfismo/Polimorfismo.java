@@ -1,0 +1,14 @@
+package Polimorfismo;
+
+public class Polimorfismo {
+
+	public static void main(String[] args) {
+		
+		Mamifero mamifero1 = new Elefante();
+		System.out.println("A cota diaria de leite de um elefante é de " + mamifero1.cotaDiariaLeite());
+		
+		
+		Mamifero mamifero2 = new Rato();
+		System.out.println("A cota diaria de leite de um rato é de " + mamifero2.cotaDiariaLeite());
+	}
+}

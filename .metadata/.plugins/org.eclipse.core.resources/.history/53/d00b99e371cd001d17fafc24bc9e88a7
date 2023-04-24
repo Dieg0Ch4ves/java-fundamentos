@@ -1,0 +1,13 @@
+package Construtores;
+
+public class Aluno {
+
+	private double nota1;
+	
+	
+	public Aluno() {
+		private
+	}
+
+	
+}

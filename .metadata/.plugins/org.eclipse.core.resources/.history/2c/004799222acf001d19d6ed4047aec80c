@@ -1,0 +1,12 @@
+package GenericsCourse;
+
+import java.util.ArrayList;
+
+public class Aeronaves {
+
+	public ArrayList<Integer> listaAeronaves = new ArrayList<>();
+	
+	public void addVoo(Integer) {
+		listaAeronaves.add()
+	}
+}

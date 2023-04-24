@@ -1,0 +1,7 @@
+package Pessoas;
+
+public class Pessoas {
+
+	Pessoa pes = new Pessoa();
+	pes.nome = "João" ;
+}

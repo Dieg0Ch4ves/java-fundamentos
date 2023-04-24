@@ -1,0 +1,11 @@
+package ArrayListPratica;
+
+public class ArrayListCarros {
+	
+	public static void main(String[] args) {
+		
+		//Criando um ArrayList de Carros
+		ArrayList<String> carros = new ArrayList<>();
+		
+	}
+}

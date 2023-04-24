@@ -1,0 +1,8 @@
+package Polimorfismo;
+
+public class Rato {
+
+	public double cotaDiariaLeite() {
+		return 0.5;
+	}
+}
